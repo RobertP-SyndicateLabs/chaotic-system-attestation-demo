@@ -57,4 +57,4 @@ This code is intentionally simplified and redacted.
 
 ## License
 
-MIT License
+Apache-2.0
