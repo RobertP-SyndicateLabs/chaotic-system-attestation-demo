@@ -1,5 +1,8 @@
 Chaotic System Attestation (CSA) — Public Demonstration
 
+CSA is substrate-agnostic and can employ multiple classes of chaotic systems tuned to hardware and operational constraints.
+
+
 Chaotic System Attestation (CSA) is a public-safe, conceptual demonstration of a physics-inspired trust signal for devices, agents, and distributed systems operating under degraded or contested conditions.
 
 Rather than relying solely on stored credentials or static cryptographic identity, CSA explores whether identity and trust can be inferred from how a system computes in real time, not just what secrets it presents.
