@@ -11,6 +11,34 @@ This repository provides a minimal, intentionally simplified scaffold for archit
 
 
 
+*** CSA Primitive Definition
+Chaotic System Attestation (CSA) is a behavioral attestation primitive that verifies whether a device has executed a constrained computation under real physical runtime conditions.
+CSA operates by forcing a verifier-selected set of chaotic dynamical systems to execute under strict temporal and computational constraints. The resulting execution trace forms a device-specific behavioral signal.
+Formally:
+Copy code
+
+Given:
+
+C = challenge parameters
+S = set of chaotic substrates
+T = execution time budget
+E = environment state
+
+Device executes:
+
+R = Execute(S, C, T, E)
+
+Verifier evaluates:
+
+V(R) ∈ {PASS, FAIL, MISMATCH}
+Where verification is based on:
+execution timing envelope
+participation of each substrate
+entropy characteristics
+cross-substrate coupling consistency
+CSA therefore verifies execution physics, not merely possession of a key.
+
+
 
 What This Is:
 
